@@ -21,6 +21,7 @@ def encode(password):
 
 
 # Decode function that takes the encoded password and subtracts 3 from each digit returning the original password
+# Written by Blake Owen
 def decode(encoded):
     original = ''
 
@@ -57,7 +58,7 @@ def main():
         elif option == 2:
             try:    # Exception handling in case no password has been encoded
                 print("The encoded password is " + encoded_pass + ", and the original password is "
-                      + decode(encoded_pass) + ".\n")   # Encoded an original passwords are printed to user
+                      + decode(encoded_pass) + ".\n")   # Encoded and original passwords are printed to user
 
             except UnboundLocalError:   # UnboundLocalError is raised if no password was encoded
                 print("Error! No password was encoded!\n")
