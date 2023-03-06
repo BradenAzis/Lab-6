@@ -21,13 +21,12 @@ def encode(password):
 
 
 # main function of the program with menu
-
 def main():
     program_run = True
     while program_run:
         print('''Menu  
 ------------- 
- 1. Encode  
+1. Encode  
 2. Decode  
 3. Quit\n''')
 
