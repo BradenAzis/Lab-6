@@ -21,6 +21,7 @@ def encode(password):
 
 
 # main function of the program with menu
+
 def main():
     program_run = True
     while program_run:
